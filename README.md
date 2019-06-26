@@ -101,9 +101,9 @@ $ gem install rails
 
 The tests for this application are written using RSpec.  To run the full test suite run:
 
-    ```
-    bundle exec rspec
-    ```
+```
+bundle exec rspec
+```
 
 To run partial test use :
 
@@ -124,14 +124,14 @@ The application is automatically deployed by Heroku on commit to master branch. 
 To work on a feature or bug fix you will need to create a new branch from master for your code, create the appropriate
 test in RSpec, push your branch to GitHub and submit a Pull request.  Your workflow might look like this:
 
-    ```
-    $ git pull origin master
-    $ git checkout -b <your-branch-name-here>
-    <write some tests>
-    <write code that passes the tests>
-    $ git push origin <your-branch-name-here>
-    <create pull request on GitHub for your code
-    ```
+```
+$ git pull origin master
+$ git checkout -b <your-branch-name-here>
+<write some tests>
+<write code that passes the tests>
+$ git push origin <your-branch-name-here>
+<create pull request on GitHub for your code
+```
 
 **NOTE:** Under no circumstance should you push your code directly to the master branch.  Always create a branch, push that branch
 to remote and submit a pull request. 
