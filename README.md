@@ -46,6 +46,7 @@ $ gem install rails
  ```
  https://www.vagrantup.com/intro/index.html
  ```
+ 
 ### Installing
 
 1. Create a new directory where you will download the code:
