@@ -1,4 +1,4 @@
-#Chess Game
+# Chess Game
 
 A chess game front end that allows two people to play against each other in real time while encorcing the rules of Chess.  
 
